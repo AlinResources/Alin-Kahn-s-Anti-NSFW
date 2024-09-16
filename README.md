@@ -6,7 +6,11 @@ Preview of this program:
 
 Features :
 Windows 10 and 11 Support
+
 Run-time protection against bad files (Especially when downloaded or received in direct messages)
+
 Scanner (Scan Folder like Downloads or a specific folder and Scan Drives from Where is Windows Installed to other local disks and removable drives + SSD Drives Included)
+
 File Eliminator
+
 Site Blocker
