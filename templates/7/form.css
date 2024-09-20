@@ -1,0 +1,62 @@
+body {
+	font: 0.8em/21px arial,sans-serif;
+}
+
+.checkbox, .radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background-image:url(img/rba.png);
+	background-repeat:no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	background-image:url(img/rbn.png);
+}
+.radio:hover{
+	background-image:url(img/rba.png) !important;
+}
+.select {
+	position: absolute;
+	height: 21px;
+	padding: 0 24px 0 3px;
+	color:#0071bc;
+	width:70px;
+	background-image:url(img/select-arrow.png);
+	background-repeat:no-repeat;
+	background-position:49px 7px;
+	overflow: hidden;
+}
+.niceRadio {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	cursor: pointer;
+	background-image:url(img/radio.png);
+	background-position: 0 -20px;
+	overflow: hidden;
+}
+.radioChecked {
+	background-position: 0 0;
+}
+.niceRadio input {
+	margin-left: -17px;
+}
+.niceCheck {
+width: 14px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background-image:url(img/checkbox.png);
+margin-right:6px;
+top:5px;
+position:relative;
+}
+.niceCheck input {
+display: none;
+
+}
+				
+		
