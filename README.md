@@ -4,6 +4,9 @@ A program made by me in vb.net designed to kill all files that are not decent on
 Preview of this program:
 ![image](https://github.com/user-attachments/assets/82cdb2d4-d034-4f04-9e32-1773e8552b2d)
 
+Thanks to serj960 for the source code with the filesystemwatcher , without his working way to make it work , the file monitor wouldn't exist in my program.
+
+
 Features :
 Windows 10 and 11 Support
 
