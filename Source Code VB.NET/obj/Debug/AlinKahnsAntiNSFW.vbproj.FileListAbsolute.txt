@@ -1,0 +1,17 @@
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.vbprojResolveAssemblyReference.cache
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.vbproj.GenerateResource.Cache
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Form1.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Resources.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Notepad.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Scan.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.SelectDrive.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\bin\Debug\AlinKahnsAntiNSFW.exe.config
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\bin\Debug\AlinKahnsAntiNSFW.exe
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\bin\Debug\AlinKahnsAntiNSFW.pdb
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\bin\Debug\AlinKahnsAntiNSFW.xml
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.exe
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.xml
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.pdb
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Detect.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Form2.resources
+C:\Users\Rafael Blogger\Downloads\AlinKAhnsAntiNSFW\obj\Debug\AlinKahnsAntiNSFW.Form3.resources
