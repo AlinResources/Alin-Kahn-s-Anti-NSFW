@@ -118,23 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="file shredder new icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\file shredder new icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="shredder (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shredder (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackgroundImage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackgroundImage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AntiNSFWGUIImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AntiNSFWGUIImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BackgroundImage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackgroundImage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shredder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shredder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="file shredder new icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\file shredder new icon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file shredder new icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file shredder new icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="externalnsfwfound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\externalnsfwfound.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
