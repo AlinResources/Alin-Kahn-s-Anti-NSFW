@@ -22,6 +22,8 @@ Partial Class Detect
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Detect))
         Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -29,6 +31,7 @@ Partial Class Detect
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Labellastreal = New System.Windows.Forms.Label()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -94,6 +97,11 @@ Partial Class Detect
         Me.Labellastreal.TabIndex = 6
         Me.Labellastreal.Text = "Recommandation : Delete the file"
         '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Text = "Found some bad file."
+        Me.NotifyIcon1.Visible = True
+        '
         'Detect
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -105,12 +113,12 @@ Partial Class Detect
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(539, 420)
         Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(539, 420)
         Me.Name = "Detect"
-        Me.ShowIcon = False
         Me.Text = "Form2"
         Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -126,4 +134,5 @@ Partial Class Detect
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Labellastreal As Label
+    Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
 End Class

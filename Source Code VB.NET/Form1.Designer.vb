@@ -65,6 +65,8 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button28 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
@@ -95,14 +97,20 @@ Partial Class Form1
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label46 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.Label45 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label40 = New System.Windows.Forms.Label()
@@ -127,15 +135,47 @@ Partial Class Form1
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.Button27 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.DesexualizerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BlockANSFWSiteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StartAScanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ScanLocalDriveRemovableDriveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ScanFolderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolBoxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CommandPromptToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TaskManagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WallpaperDisplaySettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FileEliminatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CleanUpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EmptyTheRecycleBinToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClearRecentItemsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DestroyTheWallpaperToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpdateCenterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpdateAntiNSFWDatabaseNowToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.About = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
         Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -156,6 +196,11 @@ Partial Class Form1
         Me.TabPage7.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.TabPage8.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -169,6 +214,7 @@ Partial Class Form1
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Controls.Add(Me.TabPage6)
         Me.TabControl1.Controls.Add(Me.TabPage7)
+        Me.TabControl1.Controls.Add(Me.TabPage8)
         Me.TabControl1.Location = New System.Drawing.Point(5, 101)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -217,8 +263,8 @@ Partial Class Form1
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(443, 13)
         Me.Label37.TabIndex = 17
-        Me.Label37.Text = "You can minimize the program while scanning in background , don't worry why takes" &
-    " so long."
+        Me.Label37.Text = "You can minimize the program while scanning in background , don't worry why takes" & _
+            " so long."
         '
         'Label36
         '
@@ -227,8 +273,8 @@ Partial Class Form1
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(532, 13)
         Me.Label36.TabIndex = 16
-        Me.Label36.Text = "In a single PC with large size of games sometimes slows down, but you dont need t" &
-    "o worry about why it freezing."
+        Me.Label36.Text = "In a single PC with large size of games sometimes slows down, but you dont need t" & _
+            "o worry about why it freezing."
         '
         'Label35
         '
@@ -286,8 +332,8 @@ Partial Class Form1
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(473, 13)
         Me.Label9.TabIndex = 10
-        Me.Label9.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" &
-    "e your option."
+        Me.Label9.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" & _
+            "e your option."
         Me.Label9.Visible = False
         '
         'RadioButton1
@@ -319,8 +365,8 @@ Partial Class Form1
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(473, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" &
-    "e your option."
+        Me.Label5.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" & _
+            "e your option."
         Me.Label5.Visible = False
         '
         'Label4
@@ -331,8 +377,8 @@ Partial Class Form1
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(473, 13)
         Me.Label4.TabIndex = 6
-        Me.Label4.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" &
-    "e your option."
+        Me.Label4.Text = "You can scan your computer for viruses with our virus scanner on this page. Choos" & _
+            "e your option."
         Me.Label4.Visible = False
         '
         'RadioButton3
@@ -380,8 +426,8 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(673, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "You can scan your computer and drives connected for Explicit/Questionable files w" &
-    "ith our NSFW scanner on this page. Choose your option."
+        Me.Label2.Text = "You can scan your computer and drives connected for Explicit/Questionable files w" & _
+            "ith our NSFW scanner on this page. Choose your option."
         '
         'Label1
         '
@@ -466,8 +512,8 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(431, 13)
         Me.Label8.TabIndex = 1
-        Me.Label8.Text = "When scanning, this area will list any NSFW material found on your PC, if any are" &
-    " found."
+        Me.Label8.Text = "When scanning, this area will list any NSFW material found on your PC, if any are" & _
+            " found."
         '
         'Label12
         '
@@ -603,16 +649,36 @@ Partial Class Form1
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.Button29)
+        Me.GroupBox3.Controls.Add(Me.Button28)
         Me.GroupBox3.Controls.Add(Me.Button18)
         Me.GroupBox3.Controls.Add(Me.Button22)
         Me.GroupBox3.Controls.Add(Me.Button17)
         Me.GroupBox3.Controls.Add(Me.Button16)
-        Me.GroupBox3.Location = New System.Drawing.Point(246, 102)
+        Me.GroupBox3.Location = New System.Drawing.Point(246, 89)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(293, 122)
+        Me.GroupBox3.Size = New System.Drawing.Size(293, 135)
         Me.GroupBox3.TabIndex = 33
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Other"
+        '
+        'Button29
+        '
+        Me.Button29.Location = New System.Drawing.Point(152, 94)
+        Me.Button29.Name = "Button29"
+        Me.Button29.Size = New System.Drawing.Size(134, 34)
+        Me.Button29.TabIndex = 39
+        Me.Button29.Text = "Computer and Files Manager"
+        Me.Button29.UseVisualStyleBackColor = True
+        '
+        'Button28
+        '
+        Me.Button28.Location = New System.Drawing.Point(9, 94)
+        Me.Button28.Name = "Button28"
+        Me.Button28.Size = New System.Drawing.Size(137, 35)
+        Me.Button28.TabIndex = 38
+        Me.Button28.Text = "DNS / Safesearch / Safe internet settings"
+        Me.Button28.UseVisualStyleBackColor = True
         '
         'Button18
         '
@@ -630,7 +696,7 @@ Partial Class Form1
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(135, 27)
         Me.Button22.TabIndex = 37
-        Me.Button22.Text = "<work in progress>"
+        Me.Button22.Text = "Task Killer"
         Me.Button22.UseVisualStyleBackColor = True
         '
         'Button17
@@ -659,9 +725,9 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Button13)
         Me.GroupBox2.Controls.Add(Me.Button12)
         Me.GroupBox2.Controls.Add(Me.Button11)
-        Me.GroupBox2.Location = New System.Drawing.Point(558, 102)
+        Me.GroupBox2.Location = New System.Drawing.Point(558, 89)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(191, 122)
+        Me.GroupBox2.Size = New System.Drawing.Size(191, 135)
         Me.GroupBox2.TabIndex = 32
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Tools"
@@ -717,9 +783,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Button9)
         Me.GroupBox1.Controls.Add(Me.Button8)
         Me.GroupBox1.Controls.Add(Me.Button7)
-        Me.GroupBox1.Location = New System.Drawing.Point(23, 102)
+        Me.GroupBox1.Location = New System.Drawing.Point(23, 89)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(217, 122)
+        Me.GroupBox1.Size = New System.Drawing.Size(217, 135)
         Me.GroupBox1.TabIndex = 31
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Cleaners"
@@ -779,8 +845,8 @@ Partial Class Form1
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(541, 13)
         Me.Label13.TabIndex = 1
-        Me.Label13.Text = "Various tools to help you if bad nsfw materials and sites strikes on your compute" &
-    "r and (maybe your reputation)."
+        Me.Label13.Text = "Various tools to help you if bad nsfw materials and sites strikes on your compute" & _
+            "r and (maybe your reputation)."
         '
         'Label14
         '
@@ -904,6 +970,7 @@ Partial Class Form1
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.IndianRed
+        Me.TabPage5.Controls.Add(Me.LinkLabel3)
         Me.TabPage5.Controls.Add(Me.LinkLabel2)
         Me.TabPage5.Controls.Add(Me.LinkLabel1)
         Me.TabPage5.Controls.Add(Me.GroupBox4)
@@ -914,8 +981,39 @@ Partial Class Form1
         Me.TabPage5.TabIndex = 5
         Me.TabPage5.Text = "About"
         '
+        'LinkLabel3
+        '
+        Me.LinkLabel3.AutoSize = True
+        Me.LinkLabel3.Location = New System.Drawing.Point(223, 235)
+        Me.LinkLabel3.Name = "LinkLabel3"
+        Me.LinkLabel3.Size = New System.Drawing.Size(76, 13)
+        Me.LinkLabel3.TabIndex = 3
+        Me.LinkLabel3.TabStop = True
+        Me.LinkLabel3.Text = "Submit a Issue"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Location = New System.Drawing.Point(78, 235)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(139, 13)
+        Me.LinkLabel2.TabIndex = 2
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Frequently Asked Questions"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(13, 235)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(59, 13)
+        Me.LinkLabel1.TabIndex = 1
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Homepage"
+        '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.Label46)
         Me.GroupBox4.Controls.Add(Me.Label42)
         Me.GroupBox4.Controls.Add(Me.Label33)
         Me.GroupBox4.Controls.Add(Me.Label34)
@@ -928,6 +1026,16 @@ Partial Class Form1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "About this program"
         '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(9, 112)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(587, 13)
+        Me.Label46.TabIndex = 3
+        Me.Label46.Text = "Website Blocker , NSFWKiller , Desexualizer process and other stuff to keep the P" & _
+            "C away from such not safe for work stuff."
+        '
         'Label42
         '
         Me.Label42.AutoSize = True
@@ -935,8 +1043,8 @@ Partial Class Form1
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(612, 13)
         Me.Label42.TabIndex = 1
-        Me.Label42.Text = "It is also comes with an database updater , file shredder and items cleaner not t" &
-    "o mention also from your browsers where you surf."
+        Me.Label42.Text = "It is also comes with an database updater , file shredder and items cleaner not t" & _
+            "o mention also from your browsers where you surf."
         '
         'Label33
         '
@@ -945,8 +1053,8 @@ Partial Class Form1
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(732, 13)
         Me.Label33.TabIndex = 1
-        Me.Label33.Text = "This program can be used to scan for scan for multiple files that are not appropr" &
-    "iate and identify even if their attribute is set to hidden they can be removed."
+        Me.Label33.Text = "This program can be used to scan for scan for multiple files that are not appropr" & _
+            "iate and identify even if their attribute is set to hidden they can be removed."
         '
         'Label34
         '
@@ -964,8 +1072,8 @@ Partial Class Form1
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(590, 13)
         Me.Label17.TabIndex = 1
-        Me.Label17.Text = "for scanner , give us a feedback when this program is useful for you , if a file " &
-    "related to this type is not removed sent a report."
+        Me.Label17.Text = "for scanner , give us a feedback when this program is useful for you , if a file " & _
+            "related to this type is not removed sent a report."
         '
         'Label16
         '
@@ -975,12 +1083,13 @@ Partial Class Form1
         Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label16.Size = New System.Drawing.Size(735, 13)
         Me.Label16.TabIndex = 0
-        Me.Label16.Text = "Alin Kahn's Anti-NSFW is a new approach to NSFW files removal.More than 2 months " &
-    "of collecting files to import into my database and creating a database"
+        Me.Label16.Text = "Alin Kahn's Anti-NSFW is a new approach to NSFW files removal.More than 2 months " & _
+            "of collecting files to import into my database and creating a database"
         '
         'TabPage6
         '
         Me.TabPage6.BackColor = System.Drawing.SystemColors.Control
+        Me.TabPage6.Controls.Add(Me.LinkLabel4)
         Me.TabPage6.Controls.Add(Me.GroupBox8)
         Me.TabPage6.Controls.Add(Me.Panel5)
         Me.TabPage6.Controls.Add(Me.ProgressBar2)
@@ -996,15 +1105,35 @@ Partial Class Form1
         Me.TabPage6.TabIndex = 6
         Me.TabPage6.Text = "Update"
         '
+        'LinkLabel4
+        '
+        Me.LinkLabel4.AutoSize = True
+        Me.LinkLabel4.Location = New System.Drawing.Point(449, 64)
+        Me.LinkLabel4.Name = "LinkLabel4"
+        Me.LinkLabel4.Size = New System.Drawing.Size(312, 13)
+        Me.LinkLabel4.TabIndex = 9
+        Me.LinkLabel4.TabStop = True
+        Me.LinkLabel4.Text = "Manual Database update (In case when automatic doesn't work)"
+        '
         'GroupBox8
         '
+        Me.GroupBox8.Controls.Add(Me.Label45)
         Me.GroupBox8.Controls.Add(Me.Label41)
-        Me.GroupBox8.Location = New System.Drawing.Point(24, 198)
+        Me.GroupBox8.Location = New System.Drawing.Point(24, 172)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(725, 63)
+        Me.GroupBox8.Size = New System.Drawing.Size(725, 89)
         Me.GroupBox8.TabIndex = 8
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Did you know?"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(8, 31)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(537, 39)
+        Me.Label45.TabIndex = 1
+        Me.Label45.Text = resources.GetString("Label45.Text")
         '
         'Label41
         '
@@ -1013,8 +1142,8 @@ Partial Class Form1
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(664, 13)
         Me.Label41.TabIndex = 0
-        Me.Label41.Text = "Sometimes when newest things going around and the scanner cannot find them.The da" &
-    "tabase is getting old.It needs to be updated for sure."
+        Me.Label41.Text = "Sometimes when newest things going around and the scanner cannot find them.The da" & _
+            "tabase is getting old.It needs to be updated for sure."
         '
         'Panel5
         '
@@ -1045,12 +1174,12 @@ Partial Class Form1
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(722, 13)
         Me.Label29.TabIndex = 0
-        Me.Label29.Text = "In this section is the Update for the antinsfw definitions , you need to keep the" &
-    "m up-to-date for newest detections.A network connection is required."
+        Me.Label29.Text = "In this section is the Update for the antinsfw definitions , you need to keep the" & _
+            "m up-to-date for newest detections.A network connection is required."
         '
         'ProgressBar2
         '
-        Me.ProgressBar2.Location = New System.Drawing.Point(24, 152)
+        Me.ProgressBar2.Location = New System.Drawing.Point(24, 143)
         Me.ProgressBar2.Name = "ProgressBar2"
         Me.ProgressBar2.Size = New System.Drawing.Size(558, 23)
         Me.ProgressBar2.TabIndex = 6
@@ -1075,7 +1204,7 @@ Partial Class Form1
         '
         'update1
         '
-        Me.update1.Location = New System.Drawing.Point(588, 152)
+        Me.update1.Location = New System.Drawing.Point(588, 143)
         Me.update1.Name = "update1"
         Me.update1.Size = New System.Drawing.Size(161, 23)
         Me.update1.TabIndex = 3
@@ -1233,8 +1362,8 @@ Partial Class Form1
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(400, 13)
         Me.Label26.TabIndex = 8
-        Me.Label26.Text = "Here is a status about the shield protection and the system info about the comput" &
-    "er."
+        Me.Label26.Text = "Here is a status about the shield protection and the system info about the comput" & _
+            "er."
         '
         'Label25
         '
@@ -1246,6 +1375,110 @@ Partial Class Form1
         Me.Label25.TabIndex = 7
         Me.Label25.Text = "Status"
         '
+        'TabPage8
+        '
+        Me.TabPage8.BackColor = System.Drawing.SystemColors.Control
+        Me.TabPage8.Controls.Add(Me.GroupBox10)
+        Me.TabPage8.Controls.Add(Me.GroupBox9)
+        Me.TabPage8.Controls.Add(Me.Panel6)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(767, 276)
+        Me.TabPage8.TabIndex = 8
+        Me.TabPage8.Text = "Other"
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.Button27)
+        Me.GroupBox10.Controls.Add(Me.Button23)
+        Me.GroupBox10.Location = New System.Drawing.Point(18, 127)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(730, 55)
+        Me.GroupBox10.TabIndex = 18
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Other options"
+        '
+        'Button27
+        '
+        Me.Button27.Location = New System.Drawing.Point(169, 18)
+        Me.Button27.Name = "Button27"
+        Me.Button27.Size = New System.Drawing.Size(96, 26)
+        Me.Button27.TabIndex = 19
+        Me.Button27.Text = "Restart Explorer"
+        Me.Button27.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.Location = New System.Drawing.Point(6, 18)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(157, 26)
+        Me.Button23.TabIndex = 16
+        Me.Button23.Text = "Re-Apply wallpaper changes"
+        Me.Button23.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.BackColor = System.Drawing.SystemColors.Control
+        Me.GroupBox9.Controls.Add(Me.Button26)
+        Me.GroupBox9.Controls.Add(Me.Button24)
+        Me.GroupBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBox9.Location = New System.Drawing.Point(18, 62)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(730, 59)
+        Me.GroupBox9.TabIndex = 17
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Tweaks"
+        '
+        'Button26
+        '
+        Me.Button26.Location = New System.Drawing.Point(230, 19)
+        Me.Button26.Name = "Button26"
+        Me.Button26.Size = New System.Drawing.Size(238, 29)
+        Me.Button26.TabIndex = 19
+        Me.Button26.Text = "Remove  Permanently Delete to context menu"
+        Me.Button26.UseVisualStyleBackColor = True
+        '
+        'Button24
+        '
+        Me.Button24.Location = New System.Drawing.Point(6, 19)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(218, 29)
+        Me.Button24.TabIndex = 18
+        Me.Button24.Text = "Add Permanently Delete to context menu"
+        Me.Button24.UseVisualStyleBackColor = True
+        '
+        'Panel6
+        '
+        Me.Panel6.BackColor = System.Drawing.Color.White
+        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel6.Controls.Add(Me.Label44)
+        Me.Panel6.Controls.Add(Me.Label43)
+        Me.Panel6.Location = New System.Drawing.Point(18, 8)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(732, 47)
+        Me.Panel6.TabIndex = 15
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(5, 21)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(514, 13)
+        Me.Label44.TabIndex = 1
+        Me.Label44.Text = "If the scanner and self-defense against NSFW is enough , maybe other tools may be" & _
+            " consired helpful below."
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(4, 7)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(151, 13)
+        Me.Label43.TabIndex = 0
+        Me.Label43.Text = "Other Miscellaneous stuff"
+        '
         'Timer1
         '
         '
@@ -1255,9 +1488,157 @@ Partial Class Form1
         '
         'NotifyIcon1
         '
+        Me.NotifyIcon1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
         Me.NotifyIcon1.Text = "Alin Kahn's Anti-NSFW"
         Me.NotifyIcon1.Visible = True
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DesexualizerToolStripMenuItem, Me.BlockANSFWSiteToolStripMenuItem, Me.StartAScanToolStripMenuItem, Me.ToolBoxToolStripMenuItem, Me.CleanUpToolStripMenuItem, Me.ToolStripMenuItem1, Me.ToolStripMenuItem4, Me.ToolStripMenuItem3, Me.ToolStripSeparator1, Me.About, Me.ToolStripMenuItem2})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(172, 230)
+        '
+        'DesexualizerToolStripMenuItem
+        '
+        Me.DesexualizerToolStripMenuItem.Name = "DesexualizerToolStripMenuItem"
+        Me.DesexualizerToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.DesexualizerToolStripMenuItem.Text = "Desexualizer"
+        '
+        'BlockANSFWSiteToolStripMenuItem
+        '
+        Me.BlockANSFWSiteToolStripMenuItem.Name = "BlockANSFWSiteToolStripMenuItem"
+        Me.BlockANSFWSiteToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.BlockANSFWSiteToolStripMenuItem.Text = "Block A NSFW Site"
+        '
+        'StartAScanToolStripMenuItem
+        '
+        Me.StartAScanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ScanLocalDriveRemovableDriveToolStripMenuItem, Me.ScanFolderToolStripMenuItem})
+        Me.StartAScanToolStripMenuItem.Name = "StartAScanToolStripMenuItem"
+        Me.StartAScanToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.StartAScanToolStripMenuItem.Text = "Start a Scan"
+        '
+        'ScanLocalDriveRemovableDriveToolStripMenuItem
+        '
+        Me.ScanLocalDriveRemovableDriveToolStripMenuItem.Name = "ScanLocalDriveRemovableDriveToolStripMenuItem"
+        Me.ScanLocalDriveRemovableDriveToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+        Me.ScanLocalDriveRemovableDriveToolStripMenuItem.Text = "Scan Local Drive/Removable Drive"
+        '
+        'ScanFolderToolStripMenuItem
+        '
+        Me.ScanFolderToolStripMenuItem.Name = "ScanFolderToolStripMenuItem"
+        Me.ScanFolderToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+        Me.ScanFolderToolStripMenuItem.Text = "Scan Folder"
+        '
+        'ToolBoxToolStripMenuItem
+        '
+        Me.ToolBoxToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CommandPromptToolStripMenuItem, Me.TaskManagerToolStripMenuItem, Me.WallpaperDisplaySettingsToolStripMenuItem, Me.FileEliminatorToolStripMenuItem})
+        Me.ToolBoxToolStripMenuItem.Name = "ToolBoxToolStripMenuItem"
+        Me.ToolBoxToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.ToolBoxToolStripMenuItem.Text = "ToolBox"
+        '
+        'CommandPromptToolStripMenuItem
+        '
+        Me.CommandPromptToolStripMenuItem.Name = "CommandPromptToolStripMenuItem"
+        Me.CommandPromptToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.CommandPromptToolStripMenuItem.Text = "Command Prompt"
+        '
+        'TaskManagerToolStripMenuItem
+        '
+        Me.TaskManagerToolStripMenuItem.Name = "TaskManagerToolStripMenuItem"
+        Me.TaskManagerToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.TaskManagerToolStripMenuItem.Text = "Task Manager"
+        '
+        'WallpaperDisplaySettingsToolStripMenuItem
+        '
+        Me.WallpaperDisplaySettingsToolStripMenuItem.Name = "WallpaperDisplaySettingsToolStripMenuItem"
+        Me.WallpaperDisplaySettingsToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.WallpaperDisplaySettingsToolStripMenuItem.Text = "Wallpaper Display Settings"
+        '
+        'FileEliminatorToolStripMenuItem
+        '
+        Me.FileEliminatorToolStripMenuItem.Name = "FileEliminatorToolStripMenuItem"
+        Me.FileEliminatorToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.FileEliminatorToolStripMenuItem.Text = "File Eliminator"
+        '
+        'CleanUpToolStripMenuItem
+        '
+        Me.CleanUpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EmptyTheRecycleBinToolStripMenuItem, Me.ClearRecentItemsToolStripMenuItem, Me.DestroyTheWallpaperToolStripMenuItem, Me.CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem})
+        Me.CleanUpToolStripMenuItem.Name = "CleanUpToolStripMenuItem"
+        Me.CleanUpToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.CleanUpToolStripMenuItem.Text = "Clean-Up"
+        '
+        'EmptyTheRecycleBinToolStripMenuItem
+        '
+        Me.EmptyTheRecycleBinToolStripMenuItem.Name = "EmptyTheRecycleBinToolStripMenuItem"
+        Me.EmptyTheRecycleBinToolStripMenuItem.Size = New System.Drawing.Size(371, 22)
+        Me.EmptyTheRecycleBinToolStripMenuItem.Text = "Empty the Recycle Bin"
+        '
+        'ClearRecentItemsToolStripMenuItem
+        '
+        Me.ClearRecentItemsToolStripMenuItem.Name = "ClearRecentItemsToolStripMenuItem"
+        Me.ClearRecentItemsToolStripMenuItem.Size = New System.Drawing.Size(371, 22)
+        Me.ClearRecentItemsToolStripMenuItem.Text = "Clear Recent Items"
+        '
+        'DestroyTheWallpaperToolStripMenuItem
+        '
+        Me.DestroyTheWallpaperToolStripMenuItem.Name = "DestroyTheWallpaperToolStripMenuItem"
+        Me.DestroyTheWallpaperToolStripMenuItem.Size = New System.Drawing.Size(371, 22)
+        Me.DestroyTheWallpaperToolStripMenuItem.Text = "Destroy the wallpaper"
+        '
+        'CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem
+        '
+        Me.CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem.Name = "CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem"
+        Me.CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem.Size = New System.Drawing.Size(371, 22)
+        Me.CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem.Text = "Clean the History from all Browers (No Killing Processes)"
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(171, 22)
+        Me.ToolStripMenuItem1.Text = "Settings"
+        '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateCenterToolStripMenuItem, Me.UpdateAntiNSFWDatabaseNowToolStripMenuItem})
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(171, 22)
+        Me.ToolStripMenuItem4.Text = "Update Database"
+        '
+        'UpdateCenterToolStripMenuItem
+        '
+        Me.UpdateCenterToolStripMenuItem.Name = "UpdateCenterToolStripMenuItem"
+        Me.UpdateCenterToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
+        Me.UpdateCenterToolStripMenuItem.Text = "Update Center"
+        '
+        'UpdateAntiNSFWDatabaseNowToolStripMenuItem
+        '
+        Me.UpdateAntiNSFWDatabaseNowToolStripMenuItem.Name = "UpdateAntiNSFWDatabaseNowToolStripMenuItem"
+        Me.UpdateAntiNSFWDatabaseNowToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
+        Me.UpdateAntiNSFWDatabaseNowToolStripMenuItem.Text = "Update AntiNSFW Database Now"
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(171, 22)
+        Me.ToolStripMenuItem3.Text = "System Status"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(168, 6)
+        '
+        'About
+        '
+        Me.About.Name = "About"
+        Me.About.Size = New System.Drawing.Size(171, 22)
+        Me.About.Text = "About"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(171, 22)
+        Me.ToolStripMenuItem2.Text = "Exit the program"
         '
         'FileSystemWatcher1
         '
@@ -1280,26 +1661,6 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(13, 235)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(59, 13)
-        Me.LinkLabel1.TabIndex = 1
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "Homepage"
-        '
-        'LinkLabel2
-        '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(78, 235)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(139, 13)
-        Me.LinkLabel2.TabIndex = 2
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Frequently Asked Questions"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1313,7 +1674,7 @@ Partial Class Form1
         Me.MinimumSize = New System.Drawing.Size(800, 443)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Alin Kahn's Anti-NSFW"
+        Me.Text = "Alin Kahn's Anti-NSFW v0.9-3 Stable Build 5"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
@@ -1349,6 +1710,12 @@ Partial Class Form1
         Me.GroupBox6.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        Me.TabPage8.ResumeLayout(False)
+        Me.GroupBox10.ResumeLayout(False)
+        Me.GroupBox9.ResumeLayout(False)
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -1467,4 +1834,44 @@ Partial Class Form1
     Friend WithEvents Label41 As Label
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents LinkLabel2 As LinkLabel
+    Friend WithEvents TabPage8 As System.Windows.Forms.TabPage
+    Friend WithEvents Panel6 As System.Windows.Forms.Panel
+    Friend WithEvents Label44 As System.Windows.Forms.Label
+    Friend WithEvents Label43 As System.Windows.Forms.Label
+    Friend WithEvents LinkLabel3 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Label46 As System.Windows.Forms.Label
+    Friend WithEvents LinkLabel4 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Label45 As System.Windows.Forms.Label
+    Friend WithEvents Button23 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
+    Friend WithEvents Button24 As System.Windows.Forms.Button
+    Friend WithEvents Button26 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox10 As System.Windows.Forms.GroupBox
+    Friend WithEvents Button27 As System.Windows.Forms.Button
+    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents DesexualizerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BlockANSFWSiteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StartAScanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ScanLocalDriveRemovableDriveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ScanFolderToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolBoxToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CommandPromptToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TaskManagerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents WallpaperDisplaySettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FileEliminatorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CleanUpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EmptyTheRecycleBinToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ClearRecentItemsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DestroyTheWallpaperToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CleanTheHistoryFromAllBrowersNoKillingProcessesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents About As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UpdateCenterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UpdateAntiNSFWDatabaseNowToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button29 As Button
+    Friend WithEvents Button28 As Button
 End Class

@@ -38,6 +38,13 @@ Public Class SelectDrive
         Form1.ListBox1.Enabled = False
         Form1.Timer1.Start()
         Me.Hide()
+        Form1.NotifyIcon1.Icon = SystemIcons.Shield
+        Form1.NotifyIcon1.Visible = True
+        Form1.NotifyIcon1.BalloonTipTitle = "The selected disk will be scanning for NSFW stuff"
+        Form1.NotifyIcon1.BalloonTipText = "Your Secondary disk drive/Removable Drive/SSD is being scanned for NSFW Materials,this scan take depending on the files amount,you can wait and once the scanner is finished we will notify you and take a proper action."
+        Form1.NotifyIcon1.BalloonTipIcon = ToolTipIcon.None
+        Form1.NotifyIcon1.ShowBalloonTip(30000)
+        Form1.TabControl1.SelectTab(1)
     End Sub
 
     Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs)

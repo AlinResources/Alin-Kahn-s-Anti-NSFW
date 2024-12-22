@@ -34,6 +34,12 @@ Public Class Detect
         Me.TextBox1.Text = Global.AlinKahnsAntiNSFW.My.MyProject.Forms.Form1.OpenFileDialog1.FileName
         Me.Label1.Text = "Filename : "
         Me.Text = "Alin Kahn Anti-NSFW Alert"
+        Form1.NotifyIcon1.Icon = SystemIcons.Error
+        Form1.NotifyIcon1.Visible = True
+        Form1.NotifyIcon1.BalloonTipTitle = "NSFW File Found"
+        Form1.NotifyIcon1.BalloonTipText = "Alin Kahn's Anti-NSFW found questionable/explicit content while surfing on the internet.Get Details and take an action."
+        Form1.NotifyIcon1.BalloonTipIcon = ToolTipIcon.Error
+        Form1.NotifyIcon1.ShowBalloonTip(30000)
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
