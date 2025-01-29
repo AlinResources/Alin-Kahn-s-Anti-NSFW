@@ -53,7 +53,7 @@ html,body{
 	background-image:url(img/menu-active.png);
 }
 #menu-active a{
-	color:#fff !important;
+	color:#150 !important;
 }
 #menu a{
 	font-size:14px;
